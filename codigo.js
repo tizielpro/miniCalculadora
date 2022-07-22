@@ -12,7 +12,7 @@ alert("<=Calculadora=>");
 var numero1 = parseInt(prompt("pon el primer número",0));
 var numero2 = parseInt(prompt("pon el segundo número",0));
 
-while(isNaN(numero1) || isNaN(numero2)){
+while(isNaN(numero1) || isNaN(numero2) || numero1 < 0 || numero2 < 0){
 	numero1 = parseInt(prompt("pon el primer número",0));
 	numero2 = parseInt(prompt("pon el segundo número",0));
 }
